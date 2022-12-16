@@ -1,0 +1,295 @@
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: #f0cfae;
+}
+
+.left h1 {
+  font-size: 5rem;
+  margin-left: 2rem;
+  color: #f2654b;
+  margin: 0 auto;
+}
+
+.right {
+  width: 50%;
+  background: url(../../images/pizza.webp) center no-repeat;
+  background-size: cover;
+}
+
+.head2 {
+  background-color: #f9f1e3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rounder-3 {
+  width: 80%;
+  border-bottom: 0.1rem solid #f2bf8c;
+}
+
+.head2 ul {
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.myButton {
+  background-color: #f0cfae;
+  border-radius: 0.8rem;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2654b;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.2rem 7.2rem;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: #f2bf8c;
+}
+
+.myButton2 {
+  background-color: #f0cfae;
+  border-radius: 0.8rem;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2654b;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2.6rem 7.2rem;
+  text-decoration: none;
+}
+
+.myButton3 {
+  background-color: #f0cfae;
+  border-radius: 0.8rem;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2654b;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.2rem 7.2rem;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: #f2bf8c;
+}
+
+.head3 {
+  width: 58%;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+.head3-1 {
+  padding-bottom: 10rem;
+}
+
+.head3-1 h1 {
+  color: #f2654a;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.head3-1 h2 {
+  color: #6e2a36;
+  font-size: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 1 auto;
+  gap: 2rem;
+}
+
+.icons > * {
+  flex-basis: 100%;
+}
+
+.icons li img {
+  margin-bottom: 3rem;
+}
+
+.icons li h3 {
+  color: #6e2a36;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.icons li p {
+  font-size: 1.6rem;
+}
+
+.head4 {
+  margin-top: 15rem;
+  margin-bottom: 7.5rem;
+  position: relative;
+}
+
+.rounder {
+  max-width: 112rem;
+  height: 77.6rem;
+  margin: 0 auto;
+  display: flex;
+  flex: 0 1 auto;
+  color: white;
+}
+.rounder .left2 {
+  width: 50%;
+  background: url(../../images/head4.webp) center no-repeat;
+  background-size: cover;
+  flex-basis: 100%;
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+.rounder .right2 {
+  background-color: #F2634D;
+  flex-basis: 100%;
+  border-radius: 0 0.8rem 0.8rem 0;
+  padding: 15rem 3rem;
+}
+.rounder .right2 h1 {
+  font-size: 3rem;
+  font-size: 4rem;
+}
+.rounder .right2 .h1 {
+  color: #6E2A36;
+}
+.rounder .right2 p {
+  padding-top: 3rem;
+  font-size: 1.8rem;
+  margin-bottom: 6rem;
+}
+.rounder .right2 .butt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0 1 auto;
+}
+.rounder .right2 a {
+  color: white;
+  background-color: #6E2A36;
+  border-radius: 0.8rem;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.2rem 7.2rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  flex-basis: 100%;
+  text-align: center;
+}
+.rounder .right2 .online-bu {
+  width: 66%;
+  padding-left: 6.6rem;
+}
+
+.box4 {
+  z-index: -11;
+  position: absolute;
+  bottom: -76px;
+  width: 100%;
+  height: 20rem;
+  background-color: #F6E9D7;
+}
+
+footer {
+  width: 100%;
+  height: 33vh;
+  background-color: #F3D8BB;
+}
+
+.fo {
+  width: 60%;
+  margin: 0 auto;
+}
+.fo .fo-logo img {
+  width: 250px;
+}
+nav {
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #f9f1e3;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #6e2a36;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.head1 {
+  display: flex;
+  height: 60vh;
+}
+
+.sticky {
+  background-color: #f9f1e3ec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f9f1e2;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  width: 100%;
+  height: 33vh;
+  background-color: #F3D8BB;
+}
+
+.fo {
+  width: 60%;
+  margin: 0 auto;
+}
+.fo .fo-logo img {
+  width: 250px;
+}

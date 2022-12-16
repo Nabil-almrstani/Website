@@ -1,0 +1,173 @@
+.head2 {
+  background-color: #f9f1e3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rounder-3 {
+  width: 80%;
+  border-bottom: 0.1rem solid #f2bf8c;
+}
+
+.head2 ul {
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.myButton {
+  background-color: #f0cfae;
+  border-radius: 0.8rem;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2654b;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.2rem 7.2rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.myButton:hover {
+  background-color: #f2bf8c;
+}
+
+.myButton2:hover {
+  background-color: #f2bf8c;
+}
+
+.myButton3:hover {
+  background-color: #f2bf8c;
+}
+
+.myButton2 {
+  background-color: #f0cfae;
+  border-radius: 0.8rem;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2654b;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2.6rem 7.2rem;
+  text-decoration: none;
+}
+
+.myButton3 {
+  background-color: #f0cfae;
+  border-radius: 0.8rem;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2654b;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.2rem 7.2rem;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: #f2bf8c;
+}
+
+@media only screen and (max-width: 1221px) {
+  .rounder-3 {
+    width: 100%;
+    border-bottom: 0.1rem solid #f2bf8c;
+  }
+}
+@media only screen and (max-width: 994px) {
+  .head2 ul {
+    flex-wrap: wrap;
+  }
+
+  .myButton, .myButton2 {
+    margin-bottom: 33px;
+  }
+}
+@media only screen and (max-width: 673px) {
+  .head2 ul {
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    flex-direction: column;
+  }
+
+  .myButton, .myButton2, .myButton3 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .rounder-3 ul {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .head2 ul {
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    flex-direction: column;
+  }
+
+  .myButton, .myButton2, .myButton3 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .rounder-3 ul {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .head2 ul {
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    flex-direction: column;
+  }
+
+  .myButton, .myButton2, .myButton3 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .rounder-3 ul {
+    width: 80%;
+  }
+
+  .myButton {
+    background-color: #f0cfae;
+    border-radius: 0.8rem;
+    display: inline-block;
+    cursor: pointer;
+    color: #f2654b;
+    font-size: 2rem !important;
+    font-weight: bold;
+    padding: 1.2rem 3.2rem !important;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .myButton2 {
+    background-color: #f0cfae;
+    border-radius: 0.8rem;
+    display: inline-block;
+    cursor: pointer;
+    color: #f2654b;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2.6rem 3.2rem;
+    text-decoration: none;
+  }
+
+  .myButton3 {
+    background-color: #f0cfae;
+    border-radius: 0.8rem;
+    display: inline-block;
+    cursor: pointer;
+    color: #f2654b;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.2rem 3.2rem;
+    text-decoration: none;
+  }
+}

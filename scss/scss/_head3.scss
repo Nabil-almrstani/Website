@@ -1,0 +1,150 @@
+
+.head3 {
+  width: 58%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  
+}
+.head3-1 {
+  padding-bottom: 10rem;
+}
+.head3-1 h1 {
+  color: #f2654a;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.head3-1 h2 {
+  color: #6e2a36;
+  font-size: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 1 auto;
+  gap: 2rem;
+}
+.icons > * {
+  flex-basis: 100%;
+}
+.icons li img {
+  margin-bottom: 3rem;
+}
+
+.icons li h3 {
+  color: #6e2a36;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.icons li p {
+  font-size: 1.6rem;
+}
+@media only screen and (max-width: 1146px) {
+  .head3 {
+    width: 80%;
+  }
+} 
+@media only screen and (max-width: 715px) {
+  
+.head3 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  
+}
+.head3-1 {
+  padding-bottom: 7rem;
+}
+.head3-1 h1 {
+  color: #f2654a;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.head3-1 h2 {
+  color: #6e2a36;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  flex: 0 1 auto;
+  gap: 2rem;
+}
+.icons > * {
+  flex-basis: 100%;
+  text-align: center;
+}
+.icons li img {
+  margin-bottom: 3rem;
+}
+
+.icons li h3 {
+  color: #6e2a36;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.icons li p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+} 
+@media only screen and (max-width: 401px) {
+  
+.head3 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  
+}
+.head3-1 {
+  padding-bottom: 7rem;
+}
+.head3-1 h1 {
+  color: #f2654a;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: left;
+}
+.head3-1 h2 {
+  color: #6e2a36;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  flex: 0 1 auto;
+  gap: 2rem;
+}
+.icons > * {
+  flex-basis: 100%;
+  text-align: center;
+}
+.icons li img {
+  margin-bottom: 3rem;
+}
+
+.icons li h3 {
+  color: #6e2a36;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.icons li p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+} 
