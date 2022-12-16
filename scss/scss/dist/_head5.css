@@ -4,3 +4,94 @@
   display: grid;
   justify-content: center;
 }
+
+.gmap_canvas {
+  display: grid;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1120px) {
+  iframe {
+    width: 700px !important;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .mapouter {
+    width: 700px !important;
+  }
+
+  .gmap_canvas {
+    display: grid;
+    justify-content: center;
+    width: 700px !important;
+  }
+
+  iframe {
+    width: 700px !important;
+  }
+}
+@media only screen and (max-width: 723px) {
+  .mapouter {
+    width: 500px !important;
+  }
+
+  .gmap_canvas {
+    display: grid;
+    justify-content: center;
+    width: 500px !important;
+  }
+
+  iframe {
+    width: 500px !important;
+  }
+}
+@media only screen and (max-width: 526px) {
+  .mapouter {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .gmap_canvas {
+    display: grid;
+    justify-content: center;
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  iframe {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .head5 {
+    width: 100%;
+    margin: 10rem 0 3rem !important;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 413px) {
+  .mapouter {
+    width: 330px !important;
+    height: 300px !important;
+  }
+
+  .gmap_canvas {
+    display: grid;
+    justify-content: center;
+    width: 330px !important;
+    height: 300px !important;
+  }
+
+  iframe {
+    width: 330px !important;
+    height: 300px !important;
+  }
+
+  .head5 {
+    width: 100%;
+    margin: 10rem 0 3rem !important;
+    display: grid;
+    justify-content: center;
+  }
+}
