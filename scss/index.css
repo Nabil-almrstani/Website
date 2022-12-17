@@ -676,7 +676,7 @@
 
 @media only screen and (max-width: 431px) {
   .rounder {
-    max-width: 30rem;
+    max-width: 34rem;
     height: 60rem;
     margin: 0 auto;
     display: -webkit-box;
@@ -750,7 +750,7 @@
     text-align: center;
   }
   .rounder .right2 .online-bu {
-    width: 85% !important;
+    width: 73% !important;
     padding-left: 6.6rem;
   }
 }
