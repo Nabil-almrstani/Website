@@ -56,4 +56,8 @@ footer {
     font-size: 2rem;
     color: #a0293f;
   }
+  .fo h2 a {
+    text-decoration: none;
+    color: black;
+  }
 }
